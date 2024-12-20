@@ -7,8 +7,8 @@ const saveNameButton = document.getElementById('save-name');
 const closePopupButton = document.getElementById('close-popup');
 
 const characters = [
-    "blue.png", "red.png", "yellow.png", "green.png",
-    "pink.png", "purple.png", "gray.png", "brown.png"
+    "Blue.png", "Red.png", "Yellow.png", "Green.png",
+    "Pink.png", "Purple.png", "Gray.png", "Brown.png"
 ];
 
 let currentCharacter = null;
