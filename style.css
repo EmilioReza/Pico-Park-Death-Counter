@@ -1,0 +1,89 @@
+/* style.css */
+body {
+    font-family: sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #f0f0f0;
+    margin: 20px;
+}
+
+h1 {
+    margin-bottom: 20px;
+    color: #333;
+}
+
+#character-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 20px;
+    width: 90%;
+    max-width: 1200px;
+}
+
+.character {
+    display: grid;
+    grid-template-rows: auto auto auto auto; /* Separate rows for image, name, counter, controls */
+    grid-template-columns: 1fr;
+    align-items: center;
+    justify-items: center;
+    border: 1px solid #ccc;
+    padding: 10px;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.character img {
+    width: 80px;
+    height: 96px;
+    margin-bottom: 10px; /* Added margin below the image */
+}
+
+.name {
+    margin-bottom: 10px; /* Added margin below the name */
+}
+
+.counter-container {
+    font-size: 2em;
+    font-weight: bold;
+}
+
+.controls {
+    display: flex;
+    gap: 5px;
+    margin-top: 10px;
+}
+
+.popup {
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    padding: 20px;
+    border: 1px solid #ccc;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+    z-index: 100;
+}
+
+#reset-all {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #dc3545;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.change-name{
+    margin-top: 5px;
+    padding: 5px 10px;
+    background-color: #007bff; /* Blue reset button */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
