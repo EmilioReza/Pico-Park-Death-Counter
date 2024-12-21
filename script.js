@@ -8,7 +8,7 @@ const closePopupButton = document.getElementById('close-popup');
 
 const characters = [
     "Blue.png", "Red.png", "Yellow.png", "Green.png",
-    "Pink.png", "Purple.png", "Gray.png", "Brown.png"
+    "Orange.png", "Pink.png", "Purple.png", "Gray.png"
 ];
 
 let currentCharacter = null;
